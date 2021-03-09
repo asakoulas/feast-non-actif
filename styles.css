@@ -1,0 +1,344 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/* Header/Navbar */
+
+#header {
+    background-color: #2f2fa2;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+
+.navbar-margin {
+    margin-right: 2.5rem;
+}
+
+.navbar-collapse {
+    z-index: 2;
+}
+
+/* logo feast */
+.feast-logo {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2rem !important;
+    padding-top: 1rem !important;
+    margin-left: 3rem;
+    position: relative;
+    z-index: 2;
+    animation: spinning 1s;
+}
+
+.span-feast {
+    transition: 0.40s;
+}
+
+.span-feast:hover {
+    color: #FF4D00;
+}
+
+/* --Underlined text an nav links */
+
+.nav-item {
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.nav-link {
+    padding: 0 !important;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+a.left {
+    position: relative;
+}
+
+a.left:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1.7px;
+    bottom: 0;
+    left: 0;
+    background-color: #FF4D00;
+    visibility: hidden;
+    transition: all 0.3s ease-out;
+}
+
+a.left:hover:before {
+    visibility: visible;
+    width: 100%;
+}
+
+a.left:active {
+    color: #FF4D00 !important;
+}
+
+/* h1 and photo */
+.row {
+    padding-top: 1.5rem;
+    padding-bottom: 4rem;
+}
+
+.img-cover {
+    transform: rotate(20deg);
+    width: 110%;
+    padding-left: 1rem;
+    position: relative;
+    bottom: 3.5rem;
+    right: 4rem;
+}
+
+.h1-cover {
+    color: white;
+    text-align: left;
+    padding-top: 4rem !important;
+    font-family: 'Merriweather Sans', sans-serif;
+    position: relative;
+    z-index: 2;
+}
+
+.btn-connection {
+    color: #FF4D00;
+    background-color: #2f2fa200;
+    font-family: 'Merriweather Sans', sans-serif;
+    border-color: #FF4D00;
+    border-radius: 0 !important;
+    margin-top: 2.2rem;
+}
+
+.feast-as-cover {
+    color: #FF4D00;
+    transition: 0.40s;
+}
+
+.feast-as-cover:hover {
+    color: white;
+}
+
+
+
+/* pk 
+
+#perks {
+    background-color: #2f2fa2;
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.phone-img {
+    width: 15rem;
+    transform: rotate(-10deg);
+}
+
+.h1-pe-box {
+    padding-top: 4rem;
+    padding-right: 0 !important;
+}
+
+.h1-pe {
+    padding-left: 8rem;
+    
+}
+*/
+
+
+/* Login */
+
+#se-connecter {
+    background-color: white;
+}
+
+.loginForm {
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 5rem 5rem 3.2rem 5rem;
+}
+
+.loginForm input {
+    padding: 0.8rem 0;
+    padding-left: 0.5rem;
+}
+
+.connecterH1 {
+    color: #2f2fa2;
+    margin-bottom: 2.5rem;
+}
+
+.loginButton {
+    color: #2f2fa2;
+    background-color: #ffffff00;
+    border-color: #2f2fa2;
+    border-radius: 0 !important;
+    margin-top: 2rem;
+}
+
+/* floating label */
+
+.user-input-wrp {
+    position: relative;
+    width: 50%;
+    margin: auto;
+}
+
+.user-input-wrp .inputText {
+    width: 100%;
+    outline: none;
+    border: 1px solid #777;
+    box-shadow: none !important;
+}
+
+.user-input-wrp .inputText:focus {
+    border-color: #2f2fa2;
+}
+
+.user-input-wrp .floating-label {
+    position: absolute;
+    pointer-events: none;
+    top: 38px;
+    left: 10px;
+    transition: 0.2s ease all;
+}
+
+.user-input-wrp input:focus~.floating-label,
+.user-input-wrp input:not(:focus):valid~.floating-label {
+    top: 0px;
+    left: 10px;
+    font-size: 13px;
+    opacity: 1;
+    color: #2f2fa2;
+}
+
+.user-input-wrp-margin-bt {
+    margin-bottom: 0.8rem;
+}
+
+.points {
+    border:none;
+    border-top: 7px darkgray dotted;
+    width: 5%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+/* logo-section */
+
+#logo-section {
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.letendre-logo {
+    width: 9rem;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #2f2fa2;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 1.5rem;
+}
+
+#footer p {
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-top: 1.5rem;
+}
+
+.footer-icons a {
+    text-decoration: none;
+    color: white;
+    transition: 0.30s;
+    margin: 0 0.7rem;
+}
+
+.footer-icons a:hover {
+    color: #FF4D00;
+}
+
+/* Fade in for head section */
+
+#headFadeIn {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Keyframe for logo */
+
+@keyframes spinning {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 991px) {
+
+    a.left:hover:before {
+        visibility: hidden;
+        display: none;
+    }
+
+    a.left:before {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .user-input-wrp {
+        width: 70%;
+    }
+}
