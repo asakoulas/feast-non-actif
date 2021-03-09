@@ -119,7 +119,7 @@ a.left:active {
 
 .user-input-wrp {
     position: relative;
-    width: 50%;
+    width: 70%;
     margin: auto;
 }
 
@@ -278,6 +278,6 @@ a.left:active {
 
 @media only screen and (max-width: 991px) {
     .user-input-wrp {
-        width: 70%;
+        width: 100%;
     }
 }
