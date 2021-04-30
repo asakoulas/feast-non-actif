@@ -22,9 +22,9 @@ html, body {
     background-color: white;
     border: none;
     border-radius: 3px;
-    display: block;
-    text-decoration: none;
+    text-decoration: none !important;
     padding: 0.8rem 1.5rem;
+    margin: auto;
 }
 
 p {
@@ -34,5 +34,5 @@ p {
 
 .button-align {
     text-align: center;
-    text-decoration: none;
+    text-decoration: none !important;
 }
