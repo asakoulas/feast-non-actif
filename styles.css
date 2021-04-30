@@ -28,7 +28,6 @@ html, body {
 
 p {
     color: white;
-    margin-top: 0.7rem;
 }
 
 .button-align {
@@ -36,8 +35,4 @@ p {
     text-decoration: none !important;
     display: inline-block !important;
     margin-top: 1.5rem;
-}
-
-.tp-m {
-    margin-top: 0 !important;
 }
