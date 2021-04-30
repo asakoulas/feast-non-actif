@@ -24,9 +24,11 @@ html, body {
     border-radius: 3px;
     display: block;
     text-decoration: none;
+    padding: 0.8rem 1.5rem;
 }
 
 p {
     color: white;
+    margin-top: 1rem;
 }
 
