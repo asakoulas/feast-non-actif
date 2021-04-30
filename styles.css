@@ -31,8 +31,9 @@ p {
 }
 
 .button-align {
-    margin: auto;
+    text-align: center;
     text-decoration: none !important;
+    display: inline-block !important;
 }
 
 .tp-m {
