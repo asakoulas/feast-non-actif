@@ -1,16 +1,20 @@
 html, body {
-    background-color: #2f2fa2 !important;   
+    background-color: #2f2fa2 !important; 
+    font-family: 'Merriweather Sans', sans-serif !important;
 }
 
 .div-fst {
     text-align: center;
     margin-top: 7rem;
+    padding: 4rem;
 }
 
 .feast-logo {
     color: white !important;
     text-decoration: none;
     display: block;
+    font-size: 1rem;
+    font-weigth: 600;
 }
 
 .feast-btn {
@@ -19,6 +23,11 @@ html, body {
     border: none;
     border-radius: 3px;
     display: block;
+    text-decoration: none;
+}
+
+.ptag {
+    color: white;
 }
 
 
