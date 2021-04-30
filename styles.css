@@ -12,7 +12,6 @@ html, body {
 .feast-logo {
     color: white !important;
     text-decoration: none;
-    display: block;
     font-size: 2.3rem;
     font-weight: 500;
 }
@@ -29,10 +28,14 @@ html, body {
 
 p {
     color: white;
-    margin-top: 0.7rem !important;
+    margin-top: 0.7rem;
 }
 
 .button-align {
     text-align: center;
     text-decoration: none !important;
+}
+
+.tp-m {
+    margin-top: 0 !important;
 }
