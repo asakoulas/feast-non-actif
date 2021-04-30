@@ -31,6 +31,18 @@ p {
     margin: 0 !important;
 }
 
+#btn-f {
+    margin-top: 2rem;
+}
+
+#text-f {
+    margin: 0;
+}
+
+#logo-f {
+    margin-top: 2rem
+}
+
 .button-align {
     text-align: center;
     text-decoration: none !important;
