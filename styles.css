@@ -62,8 +62,8 @@ p {
     color: #d73a49;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 550px) {
     #div-m-text {
-        width: 90%;
+        width: 100%;
     }
 }
