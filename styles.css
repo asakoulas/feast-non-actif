@@ -48,3 +48,9 @@ p {
     display: inline-block !important;
     margin-top: 1.5rem;
 }
+
+#div-m-text {
+    margin-top: 2rem;
+    border: 1px solid #d73a49;
+    border-radius: 2rem;
+}
