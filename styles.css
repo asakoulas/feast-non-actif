@@ -52,5 +52,11 @@ p {
 #div-m-text {
     margin-top: 2rem;
     border: 1px solid #d73a49;
-    border-radius: 2rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    padding: 0.7rem;
+}
+
+.p-class-m-text {
+    color: #d73a49;
 }
